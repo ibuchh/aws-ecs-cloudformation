@@ -404,7 +404,7 @@ Resources:
       ExecutionRoleArn: !Ref TaskExecutionRole
       ContainerDefinitions:
         - Name: simple-app
-          Image: linuxacademy/ecs-deep-dive:simple-app
+          Image: ibuchh/aws-ecs-cloudFormation
           EntryPoint:
             - /usr/sbin/apache2
             - -D
